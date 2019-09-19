@@ -16,7 +16,7 @@ import { MapService } from '../map/map.service';
 
 @Component({
   selector: 'mgl-marker',
-  template: '<div #content><ng-content></ng-content></div>',
+  template: '<div [class]="className" #content><ng-content></ng-content></div>',
   styles: [`
     .mapboxgl-marker {
       line-height: 0;
@@ -33,6 +33,7 @@ export class MarkerComponent implements OnChanges, OnDestroy, AfterViewInit, OnI
   /* Dynamic input */
   @Input() feature?: GeoJSON.Feature<GeoJSON.Point>;
   @Input() lngLat?: LngLatLike;
+  @Input() className: string = '';
 
   @ViewChild('content') content: ElementRef;
 
