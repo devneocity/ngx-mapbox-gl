@@ -124,5 +124,6 @@
     "@turf/bbox": "^6.0.1",
     "@turf/helpers": "^6.1.3",
     "supercluster": "^3.0.2"
-  }
+  },
+  "main": "dist/bundles/ngx-mapbox-gl.umd.js"
 }
