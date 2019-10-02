@@ -82,7 +82,6 @@
     "@ngrx/store-devtools": "^5.2.0",
     "@stackblitz/sdk": "^1.1.1",
     "@turf/random": "^6.0.2",
-    "@types/jasmine": "~2.8.6",
     "@types/jasminewd2": "~2.0.3",
     "@types/lodash-es": "^4.17.0",
     "@types/mapbox-gl": "0.45.0",
