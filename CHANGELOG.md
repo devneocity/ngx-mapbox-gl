@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/Wykks/ngx-mapbox-gl/compare/v1.2.2...v1.3.0) (2019-10-02)
+
+
+### Features
+
+* **marker:** add className input ([b124178](https://github.com/Wykks/ngx-mapbox-gl/commit/b124178))
+
+
+
 <a name="1.2.2"></a>
 ## [1.2.2](https://github.com/Wykks/ngx-mapbox-gl/compare/v1.2.0...v1.2.2) (2018-12-09)
 
