@@ -78,7 +78,7 @@ export class MarkerClusterComponent implements OnChanges, OnDestroy, AfterConten
 
   clusterPoints: GeoJSON.Feature<GeoJSON.Point>[];
 
-  private supercluster: Supercluster;
+  private supercluster: any;
   private sub = new Subscription();
 
   constructor(
@@ -106,6 +106,7 @@ export class MarkerClusterComponent implements OnChanges, OnDestroy, AfterConten
           delete options[tkey];
         }
       });
+
     this.supercluster = supercluster(options);
     this.supercluster.load(this.data.features);
     this.load.emit(this.supercluster);
