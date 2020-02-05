@@ -84,7 +84,7 @@ export class MarkerClusterComponent implements OnChanges, OnDestroy, AfterConten
   constructor(
     private MapService: MapService,
     private ChangeDetectorRef: ChangeDetectorRef,
-    private zone: NgZone
+    private zone: NgZone,
   ) { }
 
   ngOnInit() {
